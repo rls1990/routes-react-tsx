@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+hr {
+  margin: 2rem auto;
+}
+
+a {
+  margin-right: 1rem;
+}
+
+#menu-conceptos-basicos ol li {
+  margin-bottom: 12px;
+}
+
+#menu-conceptos-basicos ol li a {
+  text-decoration: none;
+}
+
+#menu-conceptos-basicos ol li a.active {
+  font-weight: bold;
+  color: #175a6d;
+}
